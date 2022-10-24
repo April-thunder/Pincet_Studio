@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Pincet - Студия депиляции</title>
+	<link rel="stylesheet" type="text/css" href="libs/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="libs/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="libs/jquery.inputmask.min.js"></script>
+	<script src="libs/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="https://kit.fontawesome.com/9e43161f10.js" crossorigin="anonymous"></script>	
+	<!--favicon-->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	<header class="header">
+		<div class="fixed-container">
+			<div class="header-container">  	
+				<a class="link-logo" href="#"><img class="pincet-logo" src="img/pincet-logo.png"></a>
+				<p class="pincet-discription">Студия депиляции и<br />массажный кабинет<br />в Бресте</p>
+				<div class="location">
+					<a class="map-icon" href="#"><img class="map" src="img/map.png"></a>
+					<div class="location__details">
+						<p class="location__text">Мы находимся в центре:</p>
+						<p class="location__street">г. Брест, ул. Гоголя, д.65</p>
+						<a class="link-map" href="#">СМОТРЕТЬ НА КАРТЕ</a>
+					</div>
+				</div>
+				<div class="contacts">
+					<div class="contacts__number">
+						<a class="phone-icon" href="#"><img class="phone-img" src="img/red-phone.png"></a>
+						<div class="number-block">
+							<p class="call-us">Звоните, мы сейчас работаем</p>
+							<a class="phone-number" href="#">+375 33 382 24 99</a>
+						</div>
+					</div>
+					<div class="contacts__days">
+							<a class="clock-icon" href="#"><img class="clock-img" src="img/clock.png"></a>
+							<p class="work-time">Пн-Вс <strong>9:00-21:00</strong></p>
+					</div>
+				</div>
+				<button class="sign-up" >
+					<img class="button-calendar" src="img/calendar.png">Записаться онлайн
+				</button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<nav class="menu">
+			<div class="menu-container">
+				<ul class="main-menu">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Шугаринг и депиляция воском</a></li>
+					<li><a href="#">Антицеллюлитный массаж</a></li>
+					<li><a href="#">Классический массаж</a></li>
+					<li><a href="#">Обучение</a></li>
+					<li><a href="#">Косметика для мастеров</a></li>
+					<li><a href="#">Статьи</a></li>
+					<li><a href="#">О студии</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+		</nav>
+		<section class="main">
+			<div class="main-container">
+				<div class="main-left">
+					<p class="main-question">Хотите избавиться от <b>нежелательных волоc <br /></b>или нужен сеанс <b>антицеллюлитного
+							массажа?</p>
+					<ul class="service-list">
+						<li>депиляция воском и Шугаринг;</li>
+						<li>профессиональные сертифицированные мастера;</li>
+						<li>работаем с женщинами и мужчинами;</li>
+						<li>результаты уже после первой процедуры;</li>
+					</ul>
+					<div class="button-wrapper">
+						<button class="card-btn">
+							<p class="card-btn__text">получить карту <br />клиента бесплатно</p>
+							<img class="card-btn__img" src="img/branch.png">
+						</button>
+					</div>
+				</div>
+				<div class="main-right">
+					<img class="girl-img" src="img/girl.png">
+				</div>
+			</div>
+			<img class="figure-left" src="img/figure-left.png">
+			<img class="figure-center" src="img/figure-center.png">
+			<img class="figure-right" src="img/figure-right.png">
+			<img class="client-card" src="img/client-card.png">
+			<img class="wave" src="img/wave.png">
+			
+		</section>
+	</main>
+	<div class="popup-container">
+		<form class="popup">
+			<input type="hidden" name="project_name" value="Web-developer site">
+			<input type="hidden" name="admin_email" value="vidyakin.alexey@yandex.ru">
+			<input type="hidden" name="form_subject" value="Тема">
+			<h1 class="popup-title"><strong>Получите</strong> программу обучения</h1>
+			<p class="popup-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+			aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>	
+			<label class="popup__input-container">
+				<input class="popup-input" type="text" required="" name="Выбор" placeholder="Выберете программу" />
+			</label>
+			<label class="popup__input-container">
+				<input class="popup-input" type="text" required="" name="Имя" placeholder="Ваше имя" />
+			</label>
+			<label class="popup__input-container">
+				<input class="popup-input" type="tel" required="" name="Телефон" placeholder="Ваш номер телефона" />
+			</label>
+			<button type="submit" class="form__btn">получить программу</button>
+			<img class="popup-flower" src="img/flower.png">
+			<a class="close-icon" href="#">
+				<span></span>
+				<span></span>
+			</a>
+		</form>
+	</div>
+</body>
