@@ -1,5 +1,5 @@
 
-# Webpage gor Pincet studio, Fragment
+# Webpage for Pincet studio, Fragment
 
 Exercise to improve Layput skills
 
@@ -18,7 +18,7 @@ Exercise to improve Layput skills
 
 ## Demo
 
-Click the link to see the page 
+Click the link to see the page https://april-thunder.github.io/Pincet_Studio/ 
 
 
 
