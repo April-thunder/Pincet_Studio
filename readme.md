@@ -1,7 +1,7 @@
 
 # Webpage for Pincet studio, Fragment
 
-Exercise to improve Layput skills
+Exercise to improve Layout skills
 
 ## Technologies used
 
